@@ -1,0 +1,200 @@
+(pcb C:\KiCad_ws\3V3Boost_TPS610986_Module\v01\TPS610986_Module.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  48260 -56400  60960 -56400  60960 -66040  48260 -66040
+            48260 -56400  48260 -56400)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 203.2)
+      (clearance 177.9)
+      (clearance 177.9 (type default_smd))
+      (clearance 44.45 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_0603
+      (place C1 56896 -62738 front 0 (PN 10u))
+      (place C2 57658 -58293 front 90 (PN 1u))
+      (place C3 55499 -57531 front 0 (PN 10u))
+      (place C4 56896 -61214 front 0 (PN 0.1u))
+    )
+    (component user:USER_L_SPD3D16
+      (place L1 51181 -60071 front 270 (PN 4.7u))
+    )
+    (component "user:USER_SIL-5_NoSilk"
+      (place P1 54610 -64770 front 0 (PN PinHeader))
+    )
+    (component Resistors_SMD:R_0603
+      (place R1 54610 -61976 front 90 (PN 390))
+      (place R2 59182 -61087 front 270 (PN 1M))
+    )
+    (component USER_Boost_TPS61098x
+      (place U1 55499 -59563 front 270 (PN TPS610986))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_0603
+      (outline (path signal 50  1400 -650  -1400 -650))
+      (outline (path signal 50  1400 -650  1400 650))
+      (outline (path signal 50  -1400 650  -1400 -650))
+      (outline (path signal 50  -1400 650  1400 650))
+      (outline (path signal 120  350 -600  -350 -600))
+      (outline (path signal 120  -350 600  350 600))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_800x750_um 2 750 0)
+      (pin Rect[T]Pad_800x750_um 1 -750 0)
+    )
+    (image user:USER_L_SPD3D16
+      (outline (path signal 100  -2300 2100  -2300 -2100))
+      (outline (path signal 100  -2300 -2100  2300 -2100))
+      (outline (path signal 100  2300 -2100  2300 2100))
+      (outline (path signal 100  2300 2100  -2300 2100))
+      (outline (path signal 100  1950 0  1854.56 -602.583  1577.58 -1146.18  1146.18 -1577.58
+            602.583 -1854.56  0 -1950  -602.583 -1854.56  -1146.18 -1577.58
+            -1577.58 -1146.18  -1854.56 -602.583  -1950 0  -1854.56 602.583
+            -1577.58 1146.18  -1146.18 1577.58  -602.583 1854.56  0 1950
+            602.583 1854.56  1146.18 1577.58  1577.58 1146.18  1854.56 602.583))
+      (outline (path signal 100  -2100 -1950  2100 -1950))
+      (outline (path signal 100  2100 -1950  2100 1950))
+      (outline (path signal 100  2100 1950  -2100 1950))
+      (outline (path signal 100  -2100 1950  -2100 -1950))
+      (pin Rect[T]Pad_4500x1400_um 1 0 -1300)
+      (pin Rect[T]Pad_4500x1400_um 2 0 1300)
+    )
+    (image "user:USER_SIL-5_NoSilk"
+      (outline (path signal 304.8  -6350 -1270  -6350 1270))
+      (outline (path signal 304.8  -6350 1270  6350 1270))
+      (outline (path signal 304.8  6350 1270  6350 -1270))
+      (outline (path signal 304.8  6350 -1270  -6350 -1270))
+      (pin Round[A]Pad_1600_um 1 -5080 0)
+      (pin Round[A]Pad_1600_um 2 -2540 0)
+      (pin Round[A]Pad_1600_um 3 0 0)
+      (pin Round[A]Pad_1600_um 4 2540 0)
+      (pin Round[A]Pad_1600_um 5 5080 0)
+    )
+    (image Resistors_SMD:R_0603
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 50  -1250 700  1250 700))
+      (outline (path signal 50  -1250 700  -1250 -700))
+      (outline (path signal 50  1250 -700  1250 700))
+      (outline (path signal 50  1250 -700  -1250 -700))
+      (pin Rect[T]Pad_500x900_um 1 -750 0)
+      (pin Rect[T]Pad_500x900_um 2 750 0)
+    )
+    (image USER_Boost_TPS61098x
+      (outline (path signal 400  -750 -1000  -762.236 -1077.25  -797.746 -1146.95  -853.054 -1202.25
+            -922.746 -1237.76  -1000 -1250  -1077.25 -1237.76  -1146.95 -1202.25
+            -1202.25 -1146.95  -1237.76 -1077.25  -1250 -1000  -1237.76 -922.746
+            -1202.25 -853.054  -1146.95 -797.746  -1077.25 -762.236  -1000 -750
+            -922.746 -762.236  -853.054 -797.746  -797.746 -853.054  -762.236 -922.746))
+      (outline (path signal 100  -775 -775  775 -775))
+      (outline (path signal 100  775 -775  775 775))
+      (outline (path signal 100  775 775  -775 775))
+      (outline (path signal 100  -775 775  -775 -775))
+      (pin Rect[T]Pad_280x750_um 1 -500 -575)
+      (pin Rect[T]Pad_280x750_um 2 0 -575)
+      (pin Rect[T]Pad_280x750_um 3 500 -575)
+      (pin Rect[T]Pad_280x750_um 4 500 575)
+      (pin Rect[T]Pad_280x750_um 5 0 575)
+      (pin Rect[T]Pad_280x750_um 6 -500 575)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_280x750_um
+      (shape (rect F.Cu -140 -375 140 375))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_4500x1400_um
+      (shape (rect F.Cu -2250 -700 2250 700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_500x900_um
+      (shape (rect F.Cu -250 -450 250 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x750_um
+      (shape (rect F.Cu -400 -375 400 375))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins C1-2 C2-2 C3-2 C4-2 P1-2 R2-2 U1-6)
+    )
+    (net VCC
+      (pins C1-1 L1-1 P1-1 R1-1)
+    )
+    (net +3.3VP
+      (pins C2-1 P1-4 U1-5)
+    )
+    (net +3V3
+      (pins C3-1 P1-3 U1-1)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins C4-1 R1-2 U1-3)
+    )
+    (net "Net-(L1-Pad2)"
+      (pins L1-2 U1-2)
+    )
+    (net /MODE
+      (pins P1-5 R2-1 U1-4)
+    )
+    (class kicad_default "" /MODE
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 203.2)
+        (clearance 177.9)
+      )
+    )
+    (class Power +3.3VP +3V3 GND "Net-(C4-Pad1)" "Net-(L1-Pad2)" VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 279.4)
+        (clearance 177.9)
+      )
+    )
+  )
+  (wiring
+  )
+)

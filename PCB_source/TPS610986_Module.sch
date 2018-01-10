@@ -1,0 +1,416 @@
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:user
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:TPS610986_Module-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPS61098x U1
+U 1 1 5A0AE4B1
+P 3150 1200
+F 0 "U1" H 2950 950 40  0000 C CNN
+F 1 "TPS610986" H 3150 1500 40  0000 C CNN
+F 2 "user:USER_Boost_TPS61098x" H 3150 1400 30  0001 C CIN
+F 3 "" H 3150 1300 60  0001 C CNN
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L1
+U 1 1 5A0AE53E
+P 2550 1050
+F 0 "L1" V 2700 1050 40  0000 C CNN
+F 1 "4.7u" V 2625 1050 40  0000 C CNN
+F 2 "user:USER_L_SPD3D16" H 2550 1050 50  0001 C CNN
+F 3 "" H 2550 1050 50  0000 C CNN
+F 4 "3021047A" H 2550 1050 60  0001 C CNN "Elecrow PN"
+	1    2550 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5A0AE79D
+P 2150 1150
+F 0 "R1" H 2180 1170 50  0000 L CNN
+F 1 "390" H 2180 1110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 2150 1150 50  0001 C CNN
+F 3 "" H 2150 1150 50  0000 C CNN
+F 4 "1021939A" H 2150 1150 60  0001 C CNN "Elecrow PN"
+	1    2150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5A0AEE2E
+P 1900 1200
+F 0 "C1" H 1910 1270 50  0000 L CNN
+F 1 "10u" H 1910 1120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1900 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0000 C CNN
+F 4 "2014210A" H 1900 1200 60  0001 C CNN "Elecrow PN"
+	1    1900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 5A0AF2BE
+P 2150 1450
+F 0 "C4" H 2160 1520 50  0000 L CNN
+F 1 "0.1u" H 2160 1370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2150 1450 50  0001 C CNN
+F 3 "" H 2150 1450 50  0000 C CNN
+F 4 "2013010A" H 2150 1450 60  0001 C CNN "Elecrow PN"
+	1    2150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 5A0AF5BC
+P 3800 1350
+F 0 "C2" H 3810 1420 50  0000 L CNN
+F 1 "1u" H 3810 1270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3800 1350 50  0001 C CNN
+F 3 "" H 3800 1350 50  0000 C CNN
+F 4 "2013501A" H 3800 1350 60  0001 C CNN "Elecrow PN"
+	1    3800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A0AF730
+P 3600 1500
+F 0 "#PWR01" H 3600 1250 50  0001 C CNN
+F 1 "GND" H 3600 1350 50  0000 C CNN
+F 2 "" H 3600 1500 50  0000 C CNN
+F 3 "" H 3600 1500 50  0000 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 5A0AF7FD
+P 4000 1050
+F 0 "#PWR02" H 4000 900 50  0001 C CNN
+F 1 "+3.3V" H 4000 1190 50  0000 C CNN
+F 2 "" H 4000 1050 50  0000 C CNN
+F 3 "" H 4000 1050 50  0000 C CNN
+	1    4000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VP #PWR03
+U 1 1 5A0AF8B1
+P 3800 1200
+F 0 "#PWR03" H 3950 1150 50  0001 C CNN
+F 1 "+3.3VP" H 3800 1300 50  0000 C CNN
+F 2 "" H 3800 1200 50  0000 C CNN
+F 3 "" H 3800 1200 50  0000 C CNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 5A0AF8F3
+P 1800 1000
+F 0 "#PWR04" H 1800 850 50  0001 C CNN
+F 1 "VCC" H 1800 1150 50  0000 C CNN
+F 2 "" H 1800 1000 50  0000 C CNN
+F 3 "" H 1800 1000 50  0000 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P1
+U 1 1 5A0AFC12
+P 900 1050
+F 0 "P1" H 900 1350 50  0000 C CNN
+F 1 "PinHeader" H 900 1450 50  0000 C CNN
+F 2 "user:USER_SIL-5_NoSilk" H 900 1050 50  0001 C CNN
+F 3 "" H 900 1050 50  0000 C CNN
+	1    900  1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 5A0AFEBE
+P 1200 850
+F 0 "#PWR05" H 1200 700 50  0001 C CNN
+F 1 "VCC" V 1200 1050 50  0000 C CNN
+F 2 "" H 1200 850 50  0000 C CNN
+F 3 "" H 1200 850 50  0000 C CNN
+	1    1200 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR06
+U 1 1 5A0AFEFC
+P 1200 1050
+F 0 "#PWR06" H 1200 900 50  0001 C CNN
+F 1 "+3.3V" V 1200 1300 50  0000 C CNN
+F 2 "" H 1200 1050 50  0000 C CNN
+F 3 "" H 1200 1050 50  0000 C CNN
+	1    1200 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3VP #PWR07
+U 1 1 5A0AFF3A
+P 1200 1150
+F 0 "#PWR07" H 1350 1100 50  0001 C CNN
+F 1 "+3.3VP" V 1200 1400 50  0000 C CNN
+F 2 "" H 1200 1150 50  0000 C CNN
+F 3 "" H 1200 1150 50  0000 C CNN
+	1    1200 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5A0AFFCD
+P 1200 950
+F 0 "#PWR08" H 1200 700 50  0001 C CNN
+F 1 "GND" V 1200 750 50  0000 C CNN
+F 2 "" H 1200 950 50  0000 C CNN
+F 3 "" H 1200 950 50  0000 C CNN
+	1    1200 950 
+	0    -1   -1   0   
+$EndComp
+Text Label 2500 1350 0    45   ~ 0
+MODE
+Text Label 1350 1250 0    45   ~ 0
+MODE
+$Comp
+L R_Small R2
+U 1 1 5A0B0900
+P 2700 1500
+F 0 "R2" H 2730 1520 50  0000 L CNN
+F 1 "1M" H 2730 1460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 2700 1500 50  0001 C CNN
+F 3 "" H 2700 1500 50  0000 C CNN
+F 4 "1024510A" H 2700 1500 60  0001 C CNN "Elecrow PN"
+	1    2700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1400 2700 1350
+Connection ~ 2700 1350
+Wire Wire Line
+	2450 1350 2750 1350
+Wire Wire Line
+	2700 1600 2700 1650
+$Comp
+L GND #PWR09
+U 1 1 5A0B0D8D
+P 2700 1650
+F 0 "#PWR09" H 2700 1400 50  0001 C CNN
+F 1 "GND" H 2700 1500 50  0000 C CNN
+F 2 "" H 2700 1650 50  0000 C CNN
+F 3 "" H 2700 1650 50  0000 C CNN
+	1    2700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1050 2650 1050
+Wire Wire Line
+	2350 1300 2350 1200
+Wire Wire Line
+	2350 1200 2750 1200
+Wire Wire Line
+	2150 1250 2150 1350
+Wire Wire Line
+	2150 1300 2350 1300
+Connection ~ 2150 1300
+$Comp
+L GND #PWR010
+U 1 1 5A0B15C7
+P 2150 1650
+F 0 "#PWR010" H 2150 1400 50  0001 C CNN
+F 1 "GND" H 2150 1500 50  0000 C CNN
+F 2 "" H 2150 1650 50  0000 C CNN
+F 3 "" H 2150 1650 50  0000 C CNN
+	1    2150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1650 2150 1550
+Connection ~ 2150 1050
+Wire Wire Line
+	1900 1100 1900 1050
+Wire Wire Line
+	1900 1300 1900 1350
+$Comp
+L GND #PWR011
+U 1 1 5A0B1924
+P 1900 1350
+F 0 "#PWR011" H 1900 1100 50  0001 C CNN
+F 1 "GND" H 1900 1200 50  0000 C CNN
+F 2 "" H 1900 1350 50  0000 C CNN
+F 3 "" H 1900 1350 50  0000 C CNN
+	1    1900 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 1050
+Wire Wire Line
+	1800 1000 1800 1050
+Wire Wire Line
+	1800 1050 2450 1050
+Wire Wire Line
+	3600 1350 3600 1500
+Wire Wire Line
+	3600 1350 3550 1350
+$Comp
+L GND #PWR012
+U 1 1 5A0B1CA6
+P 3800 1500
+F 0 "#PWR012" H 3800 1250 50  0001 C CNN
+F 1 "GND" H 3800 1350 50  0000 C CNN
+F 2 "" H 3800 1500 50  0000 C CNN
+F 3 "" H 3800 1500 50  0000 C CNN
+	1    3800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1500 3800 1450
+$Comp
+L C_Small C3
+U 1 1 5A0B24F4
+P 4000 1350
+F 0 "C3" H 4010 1420 50  0000 L CNN
+F 1 "10u" H 4010 1270 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4000 1350 50  0001 C CNN
+F 3 "" H 4000 1350 50  0000 C CNN
+F 4 "2014210A" H 4000 1350 60  0001 C CNN "Elecrow PN"
+	1    4000 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1200 3800 1250
+Connection ~ 3800 1200
+Wire Wire Line
+	4000 1450 4000 1500
+$Comp
+L GND #PWR013
+U 1 1 5A0B29FA
+P 4000 1500
+F 0 "#PWR013" H 4000 1250 50  0001 C CNN
+F 1 "GND" H 4000 1350 50  0000 C CNN
+F 2 "" H 4000 1500 50  0000 C CNN
+F 3 "" H 4000 1500 50  0000 C CNN
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 1050
+Wire Wire Line
+	3550 1200 3800 1200
+Wire Wire Line
+	4000 1050 3550 1050
+Wire Wire Line
+	4000 1050 4000 1250
+Wire Wire Line
+	1100 1250 1550 1250
+Wire Wire Line
+	1200 1150 1100 1150
+Wire Wire Line
+	1100 1050 1200 1050
+Wire Wire Line
+	1200 950  1100 950 
+Wire Wire Line
+	1100 850  1200 850 
+Text Notes 650  900  0    60   ~ 0
+PWR
+Text Notes 650  1000 0    60   ~ 0
+GND
+Text Notes 550  1100 0    60   ~ 0
+VMAIN
+Text Notes 600  1200 0    60   ~ 0
+VSUB
+Text Notes 600  1300 0    60   ~ 0
+MODE
+$EndSCHEMATC
