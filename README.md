@@ -40,6 +40,9 @@ TPS610986の静止電流は約1μA程度（ローパワーモード時）と非�
 ### 回路図  
 <img src="/images/schematic.png" width="500px">
 
+### 寸法
+<img src="/images/TPS610986_Module_PCBsize.png" width="150px">
+
 ## 販売  
 未定
 <!--
@@ -66,6 +69,9 @@ TPS610986の静止電流は約1μA程度（ローパワーモード時）と非�
 #### VMAINピンの整定時間（負荷：210mA）：約1500μs
 <img src="/images/SettlingTime_VMAIN_210mA.jpg" width="400px">
 
+## データシート  
+[TPS610986データシート(英語)](http://www.ti.com/lit/ds/symlink/tps610986.pdf)
 
 ## License
 MIT License
+
