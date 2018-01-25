@@ -44,10 +44,9 @@ TPS610986の静止電流は約1μA程度（ローパワーモード時）と非�
 <img src="/images/TPS610986_Module_PCBsize.png" width="150px">
 
 ## 販売  
-未定
-<!--
-[スイッチサイエンス委託販売ページ](https://www.switch-science.com/catalog/3493/)  
--->
+
+[スイッチサイエンス委託販売ページ](https://www.switch-science.com/catalog/3659/)  
+
 
 
 ## 性能評価  
@@ -74,4 +73,3 @@ TPS610986の静止電流は約1μA程度（ローパワーモード時）と非�
 
 ## License
 MIT License
-
