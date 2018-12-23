@@ -26,7 +26,7 @@ TPS610986の静止電流は約1μA程度（ローパワーモード時）と非�
 
 ### 仕様
 - 入力電圧：0.7V～4.5V (※3.3V以上入力した場合はパススルーとなります)
-- 出力電圧：3.3V
+- 出力電圧：3.3V (低負荷のバーストモード時：3.4V)
 - 最大スイッチング電流：350mA (※最大出力電流は入力電圧と効率に依存します)
 - ロードスイッチ付
 - 効率
@@ -34,20 +34,15 @@ TPS610986の静止電流は約1μA程度（ローパワーモード時）と非�
   - 93% (入力電圧2V～3.3V、負荷5mA～100mA)
 - 基板サイズ：横12.7mm×縦10.0ｍｍ
 
-
-
+## 販売  
+[スイッチサイエンス委託販売ページ](https://www.switch-science.com/catalog/3659/)  
+※大量注文や在庫に関する問い合わせは[こちら](mailto:info.y2kb@gmail.com)までご連絡ください。  
 
 ### 回路図  
 <img src="/images/schematic.png" width="500px">
 
 ### 寸法
-<img src="/images/TPS610986_Module_PCBsize.png" width="150px">
-
-## 販売  
-
-[スイッチサイエンス委託販売ページ](https://www.switch-science.com/catalog/3659/)  
-
-
+<img src="/images/TPS610986_Module_PCBsize.png" width="200px">
 
 ## 性能評価  
 
